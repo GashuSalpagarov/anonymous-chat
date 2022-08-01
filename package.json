@@ -1,5 +1,5 @@
 {
-  "name": "vue-chat",
+  "name": "anonymous-chat",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,6 +9,8 @@
   },
   "dependencies": {
     "core-js": "^3.6.5",
+    "firebase": "^9.9.1",
+    "uuid": "^8.3.2",
     "vue": "^3.0.0"
   },
   "devDependencies": {
@@ -34,7 +36,9 @@
     "parserOptions": {
       "parser": "babel-eslint"
     },
-    "rules": {}
+    "rules": {
+      "no-unused-vars": "off"
+    }
   },
   "browserslist": [
     "> 1%",
